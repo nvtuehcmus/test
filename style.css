@@ -1,0 +1,125 @@
+body{
+    font-family: inherit;
+}
+.hr{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+
+.forgotten {
+    font-family: inherit;
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+}
+.forgotten:hover{
+    text-decoration: underline;
+}
+.container{
+    padding-top: 72px;
+    padding-bottom: 112px;
+    display: block;
+    background-color: #f0f2f5;
+    margin: 0;
+    overflow: auto;
+    
+}
+.quote{
+    font-family:inherit, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    margin-top: 20px;
+}
+.content{
+    margin: 0 auto;
+    padding: 20px 0;
+    position: relative;
+    width: 980px;
+    display: flex;
+
+}
+.left-side{
+    box-sizing: border-box;
+    margin-right: 0;
+    padding-right: 32px;
+    width: 580px;
+    display: inline-block;
+}
+.left-side img{
+    width: 300px;
+    height: 106px;
+    margin: -28px;
+    padding-top: 112px;
+}
+.right-side{
+    display: inline-block;
+    vertical-align: top;
+}
+.fb-box{
+    border-radius: 8px;
+    width: 396px;
+    background-color: #fff;
+    padding-bottom: 24px;
+    padding-top: 10px;
+    text-align: center;
+    border: none;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+}
+.fb-box input{
+    padding: 14px 16px;
+    border: 1px solid #dddfe2;
+    width: 330px;
+    font-size: 17px;
+    background:none;
+    border-radius: 6px;
+}
+
+#login{
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 364px;
+    color: white;
+    font-weight: bold;
+}
+#register{
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.reg_pages_msg{
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    margin-top: 28px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+    color: #1c1e21;
+}
+.reg_pages_msg a{
+    color: #1c1e21;
+    font-size: 14px;    
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.reg_pages_msg a:hover{
+    text-decoration: underline;
+}
